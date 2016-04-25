@@ -22,5 +22,55 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }// JavaScript Document
 
-/* AboutUs Page
---------------------------------------------------------------------------------------------------------------- */
+/* Button Changing
+---------------------------------------------------------------------------------------------------------------*/
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = " Thank you for submitting";
+}
+/* Contact Form Validation
+---------------------------------------------------------------------------------------------------------------*/
+ function validate()
+      {
+      
+         if( document.myForm.first_name.value == "" )
+         {
+            alert( "Please provide your name!" );
+            document.myForm.first_name.focus() ;
+            return false;
+         }
+         if( document.myForm.last_name.value == "" )
+         {
+            alert( "Please provide your name!" );
+            document.myForm.last_name.focus() ;
+            return false;
+         }
+         
+         if( document.myForm.email.value == "" )
+         {
+            alert( "Please provide your Email!" );
+            document.myForm.email.focus() ;
+            return false;
+         }
+         
+         function validateEmail()
+      {
+         var emailID = document.myForm.email.value;
+         atpos = emailID.indexOf("@");
+         dotpos = emailID.lastIndexOf(".");
+         
+         if (atpos < 1 || ( dotpos - atpos < 2 )) 
+         {
+            alert("Please enter correct email ID")
+            document.myForm.email.focus() ;
+            return false;
+         }
+         return( true );
+         
+         if( document.myForm.comments.value == "" )
+         {
+            alert( "Please provide a comment!" );
+            document.myForm.comments.focus() ;
+            return false;
+         }
+         
