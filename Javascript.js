@@ -20,57 +20,12 @@ function MM_findObj(n, d) { //v4.01
 function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}// JavaScript Document
-
+}
 /* Button Changing
 ---------------------------------------------------------------------------------------------------------------*/
 
 function myFunction() {
     document.getElementById("demo").innerHTML = " Thank you for submitting";
 }
-/* Contact Form Validation
----------------------------------------------------------------------------------------------------------------*/
- function validate()
-      {
-      
-         if( document.myForm.first_name.value == "" )
-         {
-            alert( "Please provide your name!" );
-            document.myForm.first_name.focus() ;
-            return false;
-         }
-         if( document.myForm.last_name.value == "" )
-         {
-            alert( "Please provide your name!" );
-            document.myForm.last_name.focus() ;
-            return false;
-         }
-         
-         if( document.myForm.email.value == "" )
-         {
-            alert( "Please provide your Email!" );
-            document.myForm.email.focus() ;
-            return false;
-         }
-         
-         function validateEmail()
-      {
-         var emailID = document.myForm.email.value;
-         atpos = emailID.indexOf("@");
-         dotpos = emailID.lastIndexOf(".");
-         
-         if (atpos < 1 || ( dotpos - atpos < 2 )) 
-         {
-            alert("Please enter correct email ID")
-            document.myForm.email.focus() ;
-            return false;
-         }
-         return( true );
-         
-         if( document.myForm.comments.value == "" )
-         {
-            alert( "Please provide a comment!" );
-            document.myForm.comments.focus() ;
-            return false;
-         }
-         
+
+
