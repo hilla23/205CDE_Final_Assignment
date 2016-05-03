@@ -2,7 +2,10 @@
 
 #background {background-color:#eaeaea;}
 .jumbotron{background-color:transparent; padding:0px;}
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 /* Banner
 --------------------------------------------------------------------------------------------------------------- */
 #logo{margin-left:auto; margin-right:auto;}
