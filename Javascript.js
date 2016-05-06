@@ -1,5 +1,6 @@
   /* Rollover social media images
 --------------------------------------------------------------------------------------------------------------- */
+// This uses javascript to change the image of the social media page when the mouse rolls over the original image:
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
 }
@@ -23,7 +24,7 @@ function MM_swapImage() { //v3.0
 }
 /* Button Changing
 ---------------------------------------------------------------------------------------------------------------*/
-
+// on click of the subscibe button it changes the button to say Thank you for submitting.
 function myFunction() {
     document.getElementById("demo").innerHTML = " Thank you for submitting";
 

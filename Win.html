@@ -9,12 +9,15 @@
 <link href="pretty.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<div id="snowflakeContainer">
-	<p class="snowflake">*</p>
+<div id="snowflakeContainer"> <!--This is the div for the snow flakes.-->
+	<p class="snowflake">*</p><!--This code creates the snow flakes for the page..-->
 </div>
+<!--The divs are for the parralax background that determines the size of the background image on each platform..-->
     <div id="snowflakeContainer" class="fullscreen background parallax" style="background-image:url('Background.jpg');" data-img-width="1600" data-img-height="1064" data-diff="100">
         <div class="content-a">
             <div class="content-b">
+                <!--This is the layer where you place all your content on.-->
+                <!--This code below showxs the clock counting down.-->
                <p6 Style=" color: white;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,1px 1px 0 #000;">Win A year supply of Ice Cream in..</p6>
                 	<div class="count">
                 	    <label Style=" color: white;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,1px 1px 0 #000;">Days</label>
@@ -28,7 +31,7 @@
                     </div>
              <script src="countdown.js"></script>
 	  <script>
-            countdown('06/06/2016 06:30:00 PM', ['days', 'hours', 'minutes', 'seconds',],
+            countdown('06/06/2016 06:30:00 PM', ['days', 'hours', 'minutes', 'seconds',],// Determines the date to countdown to:
             function(){
                 console.log('Finished');
             });
@@ -37,8 +40,7 @@
         </div>
     </div>
 
-  
-<!-- include jQuery -->
+<!--STyles the snowflakes, content and the bakground.-->
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
   
 </body>

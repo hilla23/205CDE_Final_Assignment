@@ -1,15 +1,15 @@
 @charset "utf-8";
 
-#background {background-color:#eaeaea;}
-.jumbotron{background-color:transparent; padding:0px;}
+#background {background-color:#eaeaea;}/* This is determines what the background looks like*/
+.jumbotron{background-color:transparent; padding:0px;} /* Detemines the background colour of carousell*/
 html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
 /* Banner
 --------------------------------------------------------------------------------------------------------------- */
-#logo{margin-left:auto; margin-right:auto;}
-#banner{background-image:url("icecream.jpg");}
+#logo{margin-left:auto; margin-right:auto;} /* This is the CSS for the logo*/
+#banner{background-image:url("icecream.jpg");}/* This is where the background of the top header is detemined*/
 
 /* Main Content section
 --------------------------------------------------------------------------------------------------------------- */
@@ -27,8 +27,8 @@ h1{color:#484848; text-decoration: underline;}
 .col-lg-4{color:#69899f;}
 #contact-box{float:left; margin-bottom: 10px; padding-left: 30px;}
 td{padding-bottom: 10px;}
-#contactus{ background-color:#B4D8E7 ; border-radius: 25px; border: 3px solid #69899f;padding: 20px;margin-bottom: 10px;}
-#footerwrapper{border-top:solid; border-color: #69899f; }
+#contactus{ background-color:#B4D8E7 ; border-radius: 25px; border: 3px solid #69899f;padding: 20px;margin-bottom: 10px;} /* Sets the color of the content page*/
+#footerwrapper{border-top:solid; border-color: #69899f; } /* Sets the style of the footer*/
 
 /* Navigation bar
 --------------------------------------------------------------------------------------------------------------- */
@@ -113,20 +113,20 @@ td{padding-bottom: 10px;}
 #text{text-align: left; width:500px; height:300px; margin-top: 20px;}
 button{background-color:#49FDCE;}
 
-.button:hover {
+.button:hover {                               /*Sets the color of the button and the style*/
     background-color: #425766;
     color: white;
 }
 h2{color:#d7e2e9; text-decoration: underline;}
 
-#aboutus{background-color: #f9f9f9;}
+#aboutus{background-color: #f9f9f9;}    /* This is the backgroudn of the about page*/
 /* Flavours Page
 --------------------------------------------------------------------------------------------------------------- */
-.thumbnail {background-color: #425766;}
+.thumbnail {background-color: #425766;} /* Detemines the background colour of thumbnails * /
 
 /* Clock 
 --------------------------------------------------------------------------------------------------------------- */
-#days{
+#days{                                 /* This code adds a border, determines the colour  etc.. for the days, hours, minutes, seconds on the clock.*/
     border-radius: 25px;
     background: #000;
     padding:10px;
