@@ -26,6 +26,7 @@ function MM_swapImage() { //v3.0
 
 function myFunction() {
     document.getElementById("demo").innerHTML = " Thank you for submitting";
+
 }
 
 
